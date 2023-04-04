@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>plg_system_jea</name>
+	<author>Sylvain Philip</author>
+	<creationDate>2023-03</creationDate>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>contact@sphilip.com</authorEmail>
+	<authorUrl>www.sphilip.com</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_JEA_XML_DESCRIPTION</description>
+	<namespace path="src">Joomla\Plugin\System\Jea</namespace>
+	<files>
+		<filename plugin="jea">jea.php</filename>
+		<folder>language</folder>
+		<folder>src</folder>
+	</files>
+	<config />
+</extension>
